@@ -13,9 +13,19 @@
   box-shadow: 2px 4px 10px black;
   background-color: rgb(70, 70, 70);
 }
+.ondeEstou {
+  background-color: transparent;
+  border: 0;
+  padding: 1vh;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
 
 .title {
-  font-size: 8vh;
+  font-size: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 
@@ -41,6 +51,7 @@
 .btnSearch {
   background-color: transparent;
   border: 0;
+  padding: 1vh;
   cursor: pointer;
   transition: transform 0.5s;
 }
@@ -50,7 +61,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  padding: 2vh;
 }
 
 .btnSearch:hover {
